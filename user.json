@@ -1,0 +1,1893 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "avatarUrl": "https://picsum.photos/id/1001/200/200",
+      "name": "Полина Орлов",
+      "location": "Екатеринбург",
+      "age": "38",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 1,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1001/600/400",
+        "https://picsum.photos/id/1051/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 14,
+      "likedByUserIds": [
+        "45",
+        "18"
+      ],
+      "createdAt": "2024-09-17T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "avatarUrl": "https://picsum.photos/id/1002/200/200",
+      "name": "Ольга Орлов",
+      "location": "Екатеринбург",
+      "age": "27",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 2,
+        "name": 6,
+        "description": "Эксперт в направлении «Тайм-менеджмент»",
+        "subcategoryId": 6
+      },
+      "images": [
+        "https://picsum.photos/id/1002/600/400",
+        "https://picsum.photos/id/1052/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 26,
+          "name": "Навыки обучения",
+          "categoryId": 4
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
+      ],
+      "likesCount": 88,
+      "likedByUserIds": [
+        "4",
+        "38",
+        "19"
+      ],
+      "createdAt": "2024-10-30T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "avatarUrl": "https://picsum.photos/id/1003/200/200",
+      "name": "Анна Волкова",
+      "location": "Санкт-Петербург",
+      "age": "29",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 3,
+        "name": 14,
+        "description": "Эксперт в направлении «Креативное письмо»",
+        "subcategoryId": 14
+      },
+      "images": [
+        "https://picsum.photos/id/1003/600/400",
+        "https://picsum.photos/id/1053/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 72,
+      "likedByUserIds": [
+        "31"
+      ],
+      "createdAt": "2024-11-03T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "avatarUrl": "https://picsum.photos/id/1004/200/200",
+      "name": "Полина Кузнецов",
+      "location": "Казань",
+      "age": "20",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 4,
+        "name": 41,
+        "description": "Эксперт в направлении «Физические тренировки»",
+        "subcategoryId": 41
+      },
+      "images": [
+        "https://picsum.photos/id/1004/600/400",
+        "https://picsum.photos/id/1054/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
+      ],
+      "likesCount": 8,
+      "likedByUserIds": [
+        "18",
+        "13",
+        "39",
+        "24",
+        "27"
+      ],
+      "createdAt": "2024-09-11T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "avatarUrl": "https://picsum.photos/id/1005/200/200",
+      "name": "Алина Кузнецов",
+      "location": "Пермь",
+      "age": "22",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 5,
+        "name": 33,
+        "description": "Эксперт в направлении «Приготовление еды»",
+        "subcategoryId": 33
+      },
+      "images": [
+        "https://picsum.photos/id/1005/600/400",
+        "https://picsum.photos/id/1055/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 13,
+      "likedByUserIds": [
+        "22",
+        "8",
+        "25",
+        "32"
+      ],
+      "createdAt": "2024-11-06T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "avatarUrl": "https://picsum.photos/id/1006/200/200",
+      "name": "Алина Орлов",
+      "location": "Казань",
+      "age": "25",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 6,
+        "name": 33,
+        "description": "Эксперт в направлении «Приготовление еды»",
+        "subcategoryId": 33
+      },
+      "images": [
+        "https://picsum.photos/id/1006/600/400",
+        "https://picsum.photos/id/1056/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 82,
+      "likedByUserIds": [
+        "8",
+        "18",
+        "7",
+        "28",
+        "26"
+      ],
+      "createdAt": "2024-11-26T00:00:00Z"
+    },
+    {
+      "id": 7,
+      "avatarUrl": "https://picsum.photos/id/1007/200/200",
+      "name": "Иван Иванов",
+      "location": "Москва",
+      "age": "26",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 7,
+        "name": 14,
+        "description": "Эксперт в направлении «Креативное письмо»",
+        "subcategoryId": 14
+      },
+      "images": [
+        "https://picsum.photos/id/1007/600/400",
+        "https://picsum.photos/id/1057/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
+      ],
+      "likesCount": 128,
+      "likedByUserIds": [
+        "34",
+        "5",
+        "17"
+      ],
+      "createdAt": "2024-12-20T00:00:00Z"
+    },
+    {
+      "id": 8,
+      "avatarUrl": "https://picsum.photos/id/1008/200/200",
+      "name": "Алина Соколова",
+      "location": "Пермь",
+      "age": "41",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 8,
+        "name": 1,
+        "description": "Эксперт в направлении «Управление командой»",
+        "subcategoryId": 1
+      },
+      "images": [
+        "https://picsum.photos/id/1008/600/400",
+        "https://picsum.photos/id/1058/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
+      ],
+      "likesCount": 96,
+      "likedByUserIds": [
+        "26",
+        "25",
+        "7",
+        "28",
+        "43"
+      ],
+      "createdAt": "2024-09-05T00:00:00Z"
+    },
+    {
+      "id": 9,
+      "avatarUrl": "https://picsum.photos/id/1009/200/200",
+      "name": "Анна Смирнов",
+      "location": "Новосибирск",
+      "age": "25",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 9,
+        "name": 6,
+        "description": "Эксперт в направлении «Тайм-менеджмент»",
+        "subcategoryId": 6
+      },
+      "images": [
+        "https://picsum.photos/id/1009/600/400",
+        "https://picsum.photos/id/1059/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 30,
+      "likedByUserIds": [
+        "10",
+        "22",
+        "50",
+        "42"
+      ],
+      "createdAt": "2024-10-22T00:00:00Z"
+    },
+    {
+      "id": 10,
+      "avatarUrl": "https://picsum.photos/id/1010/200/200",
+      "name": "Дарья Смирнов",
+      "location": "Санкт-Петербург",
+      "age": "42",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 10,
+        "name": 6,
+        "description": "Эксперт в направлении «Тайм-менеджмент»",
+        "subcategoryId": 6
+      },
+      "images": [
+        "https://picsum.photos/id/1010/600/400",
+        "https://picsum.photos/id/1060/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 119,
+      "likedByUserIds": [],
+      "createdAt": "2024-11-08T00:00:00Z"
+    },
+    {
+      "id": 11,
+      "avatarUrl": "https://picsum.photos/id/1011/200/200",
+      "name": "Максим Кузнецов",
+      "location": "Санкт-Петербург",
+      "age": "18",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 11,
+        "name": 29,
+        "description": "Эксперт в направлении «Навыки преподавания»",
+        "subcategoryId": 29
+      },
+      "images": [
+        "https://picsum.photos/id/1011/600/400",
+        "https://picsum.photos/id/1061/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
+      ],
+      "likesCount": 68,
+      "likedByUserIds": [],
+      "createdAt": "2024-10-01T00:00:00Z"
+    },
+    {
+      "id": 12,
+      "avatarUrl": "https://picsum.photos/id/1012/200/200",
+      "name": "Ольга Иванов",
+      "location": "Казань",
+      "age": "37",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 12,
+        "name": 26,
+        "description": "Эксперт в направлении «Навыки обучения»",
+        "subcategoryId": 26
+      },
+      "images": [
+        "https://picsum.photos/id/1012/600/400",
+        "https://picsum.photos/id/1062/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 67,
+      "likedByUserIds": [
+        "50",
+        "4",
+        "9",
+        "34",
+        "25"
+      ],
+      "createdAt": "2024-11-12T00:00:00Z"
+    },
+    {
+      "id": 13,
+      "avatarUrl": "https://picsum.photos/id/1013/200/200",
+      "name": "Иван Петров",
+      "location": "Москва",
+      "age": "27",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 13,
+        "name": 14,
+        "description": "Эксперт в направлении «Креативное письмо»",
+        "subcategoryId": 14
+      },
+      "images": [
+        "https://picsum.photos/id/1013/600/400",
+        "https://picsum.photos/id/1063/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 127,
+      "likedByUserIds": [
+        "22",
+        "6",
+        "38",
+        "44",
+        "4"
+      ],
+      "createdAt": "2024-09-28T00:00:00Z"
+    },
+    {
+      "id": 14,
+      "avatarUrl": "https://picsum.photos/id/1014/200/200",
+      "name": "Никита Соколова",
+      "location": "Москва",
+      "age": "44",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 14,
+        "name": 17,
+        "description": "Эксперт в направлении «Английский»",
+        "subcategoryId": 17
+      },
+      "images": [
+        "https://picsum.photos/id/1014/600/400",
+        "https://picsum.photos/id/1064/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 141,
+      "likedByUserIds": [],
+      "createdAt": "2024-12-20T00:00:00Z"
+    },
+    {
+      "id": 15,
+      "avatarUrl": "https://picsum.photos/id/1015/200/200",
+      "name": "Иван Волкова",
+      "location": "Казань",
+      "age": "19",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 15,
+        "name": 6,
+        "description": "Эксперт в направлении «Тайм-менеджмент»",
+        "subcategoryId": 6
+      },
+      "images": [
+        "https://picsum.photos/id/1015/600/400",
+        "https://picsum.photos/id/1065/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 135,
+      "likedByUserIds": [],
+      "createdAt": "2024-11-08T00:00:00Z"
+    },
+    {
+      "id": 16,
+      "avatarUrl": "https://picsum.photos/id/1016/200/200",
+      "name": "Екатерина Иванов",
+      "location": "Казань",
+      "age": "33",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 16,
+        "name": 26,
+        "description": "Эксперт в направлении «Навыки обучения»",
+        "subcategoryId": 26
+      },
+      "images": [
+        "https://picsum.photos/id/1016/600/400",
+        "https://picsum.photos/id/1066/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 15,
+      "likedByUserIds": [
+        "29",
+        "42"
+      ],
+      "createdAt": "2024-11-11T00:00:00Z"
+    },
+    {
+      "id": 17,
+      "avatarUrl": "https://picsum.photos/id/1017/200/200",
+      "name": "Алексей Орлов",
+      "location": "Пермь",
+      "age": "34",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 17,
+        "name": 41,
+        "description": "Эксперт в направлении «Физические тренировки»",
+        "subcategoryId": 41
+      },
+      "images": [
+        "https://picsum.photos/id/1017/600/400",
+        "https://picsum.photos/id/1067/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
+      ],
+      "likesCount": 103,
+      "likedByUserIds": [
+        "1",
+        "10",
+        "37",
+        "9",
+        "32"
+      ],
+      "createdAt": "2024-09-27T00:00:00Z"
+    },
+    {
+      "id": 18,
+      "avatarUrl": "https://picsum.photos/id/1018/200/200",
+      "name": "Артём Иванов",
+      "location": "Пермь",
+      "age": "30",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 18,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1018/600/400",
+        "https://picsum.photos/id/1068/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 94,
+      "likedByUserIds": [
+        "1",
+        "12",
+        "19",
+        "40",
+        "31"
+      ],
+      "createdAt": "2024-11-15T00:00:00Z"
+    },
+    {
+      "id": 19,
+      "avatarUrl": "https://picsum.photos/id/1019/200/200",
+      "name": "Никита Волкова",
+      "location": "Екатеринбург",
+      "age": "27",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 19,
+        "name": 14,
+        "description": "Эксперт в направлении «Креативное письмо»",
+        "subcategoryId": 14
+      },
+      "images": [
+        "https://picsum.photos/id/1019/600/400",
+        "https://picsum.photos/id/1069/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
+      ],
+      "likesCount": 47,
+      "likedByUserIds": [
+        "20",
+        "35"
+      ],
+      "createdAt": "2024-09-26T00:00:00Z"
+    },
+    {
+      "id": 20,
+      "avatarUrl": "https://picsum.photos/id/1020/200/200",
+      "name": "Сергей Кузнецов",
+      "location": "Пермь",
+      "age": "25",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 20,
+        "name": 26,
+        "description": "Эксперт в направлении «Навыки обучения»",
+        "subcategoryId": 26
+      },
+      "images": [
+        "https://picsum.photos/id/1020/600/400",
+        "https://picsum.photos/id/1070/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
+      ],
+      "likesCount": 59,
+      "likedByUserIds": [
+        "5",
+        "44"
+      ],
+      "createdAt": "2024-09-25T00:00:00Z"
+    },
+    {
+      "id": 21,
+      "avatarUrl": "https://picsum.photos/id/1021/200/200",
+      "name": "Дарья Орлов",
+      "location": "Новосибирск",
+      "age": "37",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 21,
+        "name": 14,
+        "description": "Эксперт в направлении «Креативное письмо»",
+        "subcategoryId": 14
+      },
+      "images": [
+        "https://picsum.photos/id/1021/600/400",
+        "https://picsum.photos/id/1071/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 141,
+      "likedByUserIds": [],
+      "createdAt": "2024-11-08T00:00:00Z"
+    },
+    {
+      "id": 22,
+      "avatarUrl": "https://picsum.photos/id/1022/200/200",
+      "name": "Ольга Смирнов",
+      "location": "Санкт-Петербург",
+      "age": "33",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 22,
+        "name": 23,
+        "description": "Эксперт в направлении «Подготовка к экзаменам (IELTS, TOEFL)»",
+        "subcategoryId": 23
+      },
+      "images": [
+        "https://picsum.photos/id/1022/600/400",
+        "https://picsum.photos/id/1072/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 50,
+      "likedByUserIds": [
+        "20",
+        "20",
+        "8",
+        "14",
+        "16"
+      ],
+      "createdAt": "2024-10-28T00:00:00Z"
+    },
+    {
+      "id": 23,
+      "avatarUrl": "https://picsum.photos/id/1023/200/200",
+      "name": "Анна Волкова",
+      "location": "Новосибирск",
+      "age": "31",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 23,
+        "name": 1,
+        "description": "Эксперт в направлении «Управление командой»",
+        "subcategoryId": 1
+      },
+      "images": [
+        "https://picsum.photos/id/1023/600/400",
+        "https://picsum.photos/id/1073/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 93,
+      "likedByUserIds": [
+        "35",
+        "43",
+        "41"
+      ],
+      "createdAt": "2024-09-23T00:00:00Z"
+    },
+    {
+      "id": 24,
+      "avatarUrl": "https://picsum.photos/id/1024/200/200",
+      "name": "Полина Петров",
+      "location": "Екатеринбург",
+      "age": "20",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 24,
+        "name": 29,
+        "description": "Эксперт в направлении «Навыки преподавания»",
+        "subcategoryId": 29
+      },
+      "images": [
+        "https://picsum.photos/id/1024/600/400",
+        "https://picsum.photos/id/1074/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 32,
+      "likedByUserIds": [
+        "15"
+      ],
+      "createdAt": "2024-11-03T00:00:00Z"
+    },
+    {
+      "id": 25,
+      "avatarUrl": "https://picsum.photos/id/1025/200/200",
+      "name": "Алексей Кузнецов",
+      "location": "Москва",
+      "age": "44",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 25,
+        "name": 33,
+        "description": "Эксперт в направлении «Приготовление еды»",
+        "subcategoryId": 33
+      },
+      "images": [
+        "https://picsum.photos/id/1025/600/400",
+        "https://picsum.photos/id/1075/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
+      ],
+      "likesCount": 78,
+      "likedByUserIds": [
+        "8",
+        "42",
+        "14"
+      ],
+      "createdAt": "2024-12-06T00:00:00Z"
+    },
+    {
+      "id": 26,
+      "avatarUrl": "https://picsum.photos/id/1026/200/200",
+      "name": "Полина Волкова",
+      "location": "Екатеринбург",
+      "age": "38",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 26,
+        "name": 6,
+        "description": "Эксперт в направлении «Тайм-менеджмент»",
+        "subcategoryId": 6
+      },
+      "images": [
+        "https://picsum.photos/id/1026/600/400",
+        "https://picsum.photos/id/1076/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 117,
+      "likedByUserIds": [
+        "46",
+        "25",
+        "22",
+        "20",
+        "8"
+      ],
+      "createdAt": "2024-10-30T00:00:00Z"
+    },
+    {
+      "id": 27,
+      "avatarUrl": "https://picsum.photos/id/1027/200/200",
+      "name": "Полина Иванов",
+      "location": "Екатеринбург",
+      "age": "35",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 27,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1027/600/400",
+        "https://picsum.photos/id/1077/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 49,
+      "likedByUserIds": [
+        "19",
+        "35",
+        "31",
+        "21",
+        "28"
+      ],
+      "createdAt": "2024-10-09T00:00:00Z"
+    },
+    {
+      "id": 28,
+      "avatarUrl": "https://picsum.photos/id/1028/200/200",
+      "name": "Дмитрий Смирнов",
+      "location": "Санкт-Петербург",
+      "age": "34",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 28,
+        "name": 9,
+        "description": "Эксперт в направлении «Рисование и иллюстрация»",
+        "subcategoryId": 9
+      },
+      "images": [
+        "https://picsum.photos/id/1028/600/400",
+        "https://picsum.photos/id/1078/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 75,
+      "likedByUserIds": [
+        "16"
+      ],
+      "createdAt": "2024-11-27T00:00:00Z"
+    },
+    {
+      "id": 29,
+      "avatarUrl": "https://picsum.photos/id/1029/200/200",
+      "name": "Дарья Смирнов",
+      "location": "Новосибирск",
+      "age": "33",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 29,
+        "name": 17,
+        "description": "Эксперт в направлении «Английский»",
+        "subcategoryId": 17
+      },
+      "images": [
+        "https://picsum.photos/id/1029/600/400",
+        "https://picsum.photos/id/1079/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
+      ],
+      "likesCount": 58,
+      "likedByUserIds": [
+        "1"
+      ],
+      "createdAt": "2024-09-17T00:00:00Z"
+    },
+    {
+      "id": 30,
+      "avatarUrl": "https://picsum.photos/id/1030/200/200",
+      "name": "Екатерина Петров",
+      "location": "Казань",
+      "age": "28",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 30,
+        "name": 17,
+        "description": "Эксперт в направлении «Английский»",
+        "subcategoryId": 17
+      },
+      "images": [
+        "https://picsum.photos/id/1030/600/400",
+        "https://picsum.photos/id/1080/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 24,
+      "likedByUserIds": [
+        "35",
+        "2",
+        "41",
+        "48"
+      ],
+      "createdAt": "2024-09-02T00:00:00Z"
+    },
+    {
+      "id": 31,
+      "avatarUrl": "https://picsum.photos/id/1031/200/200",
+      "name": "Анна Орлов",
+      "location": "Москва",
+      "age": "27",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 31,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1031/600/400",
+        "https://picsum.photos/id/1081/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 48,
+      "likedByUserIds": [
+        "21",
+        "15"
+      ],
+      "createdAt": "2024-10-02T00:00:00Z"
+    },
+    {
+      "id": 32,
+      "avatarUrl": "https://picsum.photos/id/1032/200/200",
+      "name": "Ольга Петров",
+      "location": "Новосибирск",
+      "age": "28",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 32,
+        "name": 6,
+        "description": "Эксперт в направлении «Тайм-менеджмент»",
+        "subcategoryId": 6
+      },
+      "images": [
+        "https://picsum.photos/id/1032/600/400",
+        "https://picsum.photos/id/1082/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 148,
+      "likedByUserIds": [
+        "32",
+        "12",
+        "10",
+        "40"
+      ],
+      "createdAt": "2024-12-11T00:00:00Z"
+    },
+    {
+      "id": 33,
+      "avatarUrl": "https://picsum.photos/id/1033/200/200",
+      "name": "Сергей Кузнецов",
+      "location": "Екатеринбург",
+      "age": "35",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 33,
+        "name": 23,
+        "description": "Эксперт в направлении «Подготовка к экзаменам (IELTS, TOEFL)»",
+        "subcategoryId": 23
+      },
+      "images": [
+        "https://picsum.photos/id/1033/600/400",
+        "https://picsum.photos/id/1083/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 60,
+      "likedByUserIds": [
+        "47",
+        "10"
+      ],
+      "createdAt": "2024-10-24T00:00:00Z"
+    },
+    {
+      "id": 34,
+      "avatarUrl": "https://picsum.photos/id/1034/200/200",
+      "name": "Полина Кузнецов",
+      "location": "Пермь",
+      "age": "44",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 34,
+        "name": 1,
+        "description": "Эксперт в направлении «Управление командой»",
+        "subcategoryId": 1
+      },
+      "images": [
+        "https://picsum.photos/id/1034/600/400",
+        "https://picsum.photos/id/1084/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 23,
+          "name": "Подготовка к экзаменам (IELTS, TOEFL)",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 109,
+      "likedByUserIds": [
+        "40",
+        "35"
+      ],
+      "createdAt": "2024-11-18T00:00:00Z"
+    },
+    {
+      "id": 35,
+      "avatarUrl": "https://picsum.photos/id/1035/200/200",
+      "name": "Дарья Кузнецов",
+      "location": "Новосибирск",
+      "age": "37",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 35,
+        "name": 23,
+        "description": "Эксперт в направлении «Подготовка к экзаменам (IELTS, TOEFL)»",
+        "subcategoryId": 23
+      },
+      "images": [
+        "https://picsum.photos/id/1035/600/400",
+        "https://picsum.photos/id/1085/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 38,
+      "likedByUserIds": [
+        "12"
+      ],
+      "createdAt": "2024-11-19T00:00:00Z"
+    },
+    {
+      "id": 36,
+      "avatarUrl": "https://picsum.photos/id/1036/200/200",
+      "name": "Алексей Кузнецов",
+      "location": "Новосибирск",
+      "age": "36",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 36,
+        "name": 26,
+        "description": "Эксперт в направлении «Навыки обучения»",
+        "subcategoryId": 26
+      },
+      "images": [
+        "https://picsum.photos/id/1036/600/400",
+        "https://picsum.photos/id/1086/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 22,
+      "likedByUserIds": [
+        "42"
+      ],
+      "createdAt": "2024-09-15T00:00:00Z"
+    },
+    {
+      "id": 37,
+      "avatarUrl": "https://picsum.photos/id/1037/200/200",
+      "name": "Дмитрий Волкова",
+      "location": "Санкт-Петербург",
+      "age": "20",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 37,
+        "name": 29,
+        "description": "Эксперт в направлении «Навыки преподавания»",
+        "subcategoryId": 29
+      },
+      "images": [
+        "https://picsum.photos/id/1037/600/400",
+        "https://picsum.photos/id/1087/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
+      ],
+      "likesCount": 133,
+      "likedByUserIds": [
+        "37",
+        "18",
+        "14"
+      ],
+      "createdAt": "2024-11-06T00:00:00Z"
+    },
+    {
+      "id": 38,
+      "avatarUrl": "https://picsum.photos/id/1038/200/200",
+      "name": "Ольга Соколова",
+      "location": "Казань",
+      "age": "39",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 38,
+        "name": 29,
+        "description": "Эксперт в направлении «Навыки преподавания»",
+        "subcategoryId": 29
+      },
+      "images": [
+        "https://picsum.photos/id/1038/600/400",
+        "https://picsum.photos/id/1088/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 9,
+      "likedByUserIds": [
+        "26",
+        "24",
+        "20",
+        "17",
+        "13"
+      ],
+      "createdAt": "2024-12-04T00:00:00Z"
+    },
+    {
+      "id": 39,
+      "avatarUrl": "https://picsum.photos/id/1039/200/200",
+      "name": "Дмитрий Волкова",
+      "location": "Москва",
+      "age": "37",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 39,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1039/600/400",
+        "https://picsum.photos/id/1089/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
+      ],
+      "likesCount": 147,
+      "likedByUserIds": [
+        "49",
+        "38",
+        "39"
+      ],
+      "createdAt": "2024-11-19T00:00:00Z"
+    },
+    {
+      "id": 40,
+      "avatarUrl": "https://picsum.photos/id/1040/200/200",
+      "name": "Дарья Петров",
+      "location": "Екатеринбург",
+      "age": "29",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 40,
+        "name": 9,
+        "description": "Эксперт в направлении «Рисование и иллюстрация»",
+        "subcategoryId": 9
+      },
+      "images": [
+        "https://picsum.photos/id/1040/600/400",
+        "https://picsum.photos/id/1090/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 25,
+      "likedByUserIds": [
+        "19",
+        "42",
+        "7",
+        "24",
+        "39"
+      ],
+      "createdAt": "2024-11-19T00:00:00Z"
+    },
+    {
+      "id": 41,
+      "avatarUrl": "https://picsum.photos/id/1041/200/200",
+      "name": "Екатерина Волкова",
+      "location": "Пермь",
+      "age": "33",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 41,
+        "name": 33,
+        "description": "Эксперт в направлении «Приготовление еды»",
+        "subcategoryId": 33
+      },
+      "images": [
+        "https://picsum.photos/id/1041/600/400",
+        "https://picsum.photos/id/1091/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 9,
+      "likedByUserIds": [
+        "9",
+        "26",
+        "37",
+        "35",
+        "42"
+      ],
+      "createdAt": "2024-10-18T00:00:00Z"
+    },
+    {
+      "id": 42,
+      "avatarUrl": "https://picsum.photos/id/1042/200/200",
+      "name": "Сергей Кузнецов",
+      "location": "Новосибирск",
+      "age": "34",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 42,
+        "name": 26,
+        "description": "Эксперт в направлении «Навыки обучения»",
+        "subcategoryId": 26
+      },
+      "images": [
+        "https://picsum.photos/id/1042/600/400",
+        "https://picsum.photos/id/1092/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
+      ],
+      "likesCount": 14,
+      "likedByUserIds": [
+        "15",
+        "20",
+        "49",
+        "24",
+        "22"
+      ],
+      "createdAt": "2024-11-12T00:00:00Z"
+    },
+    {
+      "id": 43,
+      "avatarUrl": "https://picsum.photos/id/1043/200/200",
+      "name": "Максим Кузнецов",
+      "location": "Казань",
+      "age": "27",
+      "gender": "Мужской",
+      "skillCanTeach": {
+        "id": 43,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1043/600/400",
+        "https://picsum.photos/id/1093/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
+      ],
+      "likesCount": 63,
+      "likedByUserIds": [
+        "43"
+      ],
+      "createdAt": "2024-10-13T00:00:00Z"
+    },
+    {
+      "id": 44,
+      "avatarUrl": "https://picsum.photos/id/1044/200/200",
+      "name": "Полина Волкова",
+      "location": "Санкт-Петербург",
+      "age": "44",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 44,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1044/600/400",
+        "https://picsum.photos/id/1094/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
+      ],
+      "likesCount": 73,
+      "likedByUserIds": [
+        "48",
+        "4",
+        "20"
+      ],
+      "createdAt": "2024-10-02T00:00:00Z"
+    },
+    {
+      "id": 45,
+      "avatarUrl": "https://picsum.photos/id/1045/200/200",
+      "name": "Екатерина Орлов",
+      "location": "Новосибирск",
+      "age": "38",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 45,
+        "name": 41,
+        "description": "Эксперт в направлении «Физические тренировки»",
+        "subcategoryId": 41
+      },
+      "images": [
+        "https://picsum.photos/id/1045/600/400",
+        "https://picsum.photos/id/1095/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 107,
+      "likedByUserIds": [
+        "49",
+        "30"
+      ],
+      "createdAt": "2024-09-20T00:00:00Z"
+    },
+    {
+      "id": 46,
+      "avatarUrl": "https://picsum.photos/id/1046/200/200",
+      "name": "Дарья Орлов",
+      "location": "Казань",
+      "age": "38",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 46,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1046/600/400",
+        "https://picsum.photos/id/1096/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 145,
+      "likedByUserIds": [
+        "25",
+        "5",
+        "48"
+      ],
+      "createdAt": "2024-11-18T00:00:00Z"
+    },
+    {
+      "id": 47,
+      "avatarUrl": "https://picsum.photos/id/1047/200/200",
+      "name": "Дарья Волкова",
+      "location": "Москва",
+      "age": "45",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 47,
+        "name": 1,
+        "description": "Эксперт в направлении «Управление командой»",
+        "subcategoryId": 1
+      },
+      "images": [
+        "https://picsum.photos/id/1047/600/400",
+        "https://picsum.photos/id/1097/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 69,
+      "likedByUserIds": [
+        "50",
+        "11",
+        "9",
+        "36"
+      ],
+      "createdAt": "2024-10-24T00:00:00Z"
+    },
+    {
+      "id": 48,
+      "avatarUrl": "https://picsum.photos/id/1048/200/200",
+      "name": "Полина Орлов",
+      "location": "Москва",
+      "age": "36",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 48,
+        "name": 6,
+        "description": "Эксперт в направлении «Тайм-менеджмент»",
+        "subcategoryId": 6
+      },
+      "images": [
+        "https://picsum.photos/id/1048/600/400",
+        "https://picsum.photos/id/1098/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
+      ],
+      "likesCount": 75,
+      "likedByUserIds": [
+        "1",
+        "26",
+        "41"
+      ],
+      "createdAt": "2024-11-14T00:00:00Z"
+    },
+    {
+      "id": 49,
+      "avatarUrl": "https://picsum.photos/id/1049/200/200",
+      "name": "Мария Кузнецов",
+      "location": "Санкт-Петербург",
+      "age": "38",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 49,
+        "name": 6,
+        "description": "Эксперт в направлении «Тайм-менеджмент»",
+        "subcategoryId": 6
+      },
+      "images": [
+        "https://picsum.photos/id/1049/600/400",
+        "https://picsum.photos/id/1099/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
+      ],
+      "likesCount": 71,
+      "likedByUserIds": [
+        "3",
+        "36",
+        "23",
+        "31",
+        "17"
+      ],
+      "createdAt": "2024-10-15T00:00:00Z"
+    },
+    {
+      "id": 50,
+      "avatarUrl": "https://picsum.photos/id/1050/200/200",
+      "name": "Екатерина Кузнецов",
+      "location": "Екатеринбург",
+      "age": "22",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 50,
+        "name": 38,
+        "description": "Эксперт в направлении «Питание и ЗОЖ»",
+        "subcategoryId": 38
+      },
+      "images": [
+        "https://picsum.photos/id/1050/600/400",
+        "https://picsum.photos/id/1100/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
+      ],
+      "likesCount": 111,
+      "likedByUserIds": [],
+      "createdAt": "2024-11-28T00:00:00Z"
+    }
+  ]
+}
