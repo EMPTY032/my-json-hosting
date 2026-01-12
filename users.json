@@ -2,1339 +2,2130 @@
   "users": [
     {
       "id": 1,
-      "avatarUrl": "https://i.pravatar.cc/150?img=1",
-      "name": "Алексей Морозов",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Москва",
-      "age": "25",
+      "avatarUrl": "https://picsum.photos/id/1001/200/200",
+      "name": "Максим Соколова",
+      "location": "Санкт-Петербург",
+      "age": "32",
       "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Маркетинг и реклама",
-        "description": "Помогаю освоить направление «Маркетинг и реклама», делюсь практическими знаниями и опытом.",
-        "categoryId": 1,
-        "subcategoryId": 2
+        "id": 1,
+        "name": "Рисование и иллюстрация",
+        "description": "Помогаю прокачать навык «Рисование и иллюстрация»",
+        "subcategoryId": 9
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1001/600/400",
+        "https://picsum.photos/id/1051/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 6, "name": "Тайм-менеджмент", "categoryId": 1 },
-        { "id": 25, "name": "Личностное развитие", "categoryId": 4 }
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        },
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 1, "name": "Бизнес и карьера" },
-        { "id": 4, "name": "Образование и развитие" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
       ],
-      "likesCount": 187,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 71,
+      "likedByUserIds": [
+        21,
+        20,
+        35,
+        19,
+        40,
+        45
+      ],
+      "createdAt": "2024-10-25T00:00:00Z"
     },
     {
       "id": 2,
-      "avatarUrl": "https://i.pravatar.cc/150?img=2",
-      "name": "Мария Лебедева",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Санкт-Петербург",
+      "avatarUrl": "https://picsum.photos/id/1002/200/200",
+      "name": "Иван Соколова",
+      "location": "Москва",
       "age": "28",
-      "gender": "Женский",
+      "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Рисование и иллюстрация",
-        "description": "Помогаю освоить направление «Рисование и иллюстрация», делюсь практическими знаниями и опытом.",
-        "categoryId": 2,
-        "subcategoryId": 9
+        "id": 2,
+        "name": "Питание и ЗОЖ",
+        "description": "Помогаю прокачать навык «Питание и ЗОЖ»",
+        "subcategoryId": 38
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1002/600/400",
+        "https://picsum.photos/id/1052/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
       ],
-      "likesCount": 92,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 58,
+      "likedByUserIds": [
+        1,
+        17,
+        3
+      ],
+      "createdAt": "2024-12-06T00:00:00Z"
     },
     {
       "id": 3,
-      "avatarUrl": "https://i.pravatar.cc/150?img=3",
-      "name": "Дмитрий Кузнецов",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Новосибирск",
-      "age": "23",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1003/200/200",
+      "name": "Екатерина Орлов",
+      "location": "Санкт-Петербург",
+      "age": "43",
+      "gender": "Женский",
       "skillCanTeach": {
-        "name": "Английский",
-        "description": "Помогаю освоить направление «Английский», делюсь практическими знаниями и опытом.",
-        "categoryId": 3,
-        "subcategoryId": 17
+        "id": 3,
+        "name": "Навыки преподавания",
+        "description": "Помогаю прокачать навык «Навыки преподавания»",
+        "subcategoryId": 29
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1003/600/400",
+        "https://picsum.photos/id/1053/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 2, "name": "Маркетинг и реклама", "categoryId": 1 },
-        { "id": 28, "name": "Скорочтение", "categoryId": 4 },
-        { "id": 37, "name": "Йога и медитация", "categoryId": 6 }
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 1, "name": "Бизнес и карьера" },
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 201,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 42,
+      "likedByUserIds": [
+        14,
+        13
+      ],
+      "createdAt": "2024-11-15T00:00:00Z"
     },
     {
       "id": 4,
-      "avatarUrl": "https://i.pravatar.cc/150?img=4",
-      "name": "Анна Петрова",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Казань",
-      "age": "27",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1004/200/200",
+      "name": "Максим Смирнов",
+      "location": "Москва",
+      "age": "19",
+      "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Музыка и звук",
-        "description": "Помогаю освоить направление «Музыка и звук», делюсь практическими знаниями и опытом.",
-        "categoryId": 2,
-        "subcategoryId": 12
+        "id": 4,
+        "name": "Подготовка к экзаменам (IELTS, TOEFL)",
+        "description": "Помогаю прокачать навык «Подготовка к экзаменам (IELTS, TOEFL)»",
+        "subcategoryId": 23
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1004/600/400",
+        "https://picsum.photos/id/1054/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 5, "name": "Резюме и собеседование", "categoryId": 1 },
-        { "id": 33, "name": "Приготовление еды", "categoryId": 5 }
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 1, "name": "Бизнес и карьера" },
-        { "id": 5, "name": "Дом и уют" }
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
       ],
-      "likesCount": 134,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 21,
+      "likedByUserIds": [],
+      "createdAt": "2024-11-13T00:00:00Z"
     },
     {
       "id": 5,
-      "avatarUrl": "https://i.pravatar.cc/150?img=5",
-      "name": "Илья Соколов",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Екатеринбург",
-      "age": "26",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1005/200/200",
+      "name": "Полина Иванов",
+      "location": "Пермь",
+      "age": "27",
+      "gender": "Женский",
       "skillCanTeach": {
-        "name": "Фотография",
-        "description": "Помогаю освоить направление «Фотография», делюсь практическими знаниями и опытом.",
-        "categoryId": 2,
-        "subcategoryId": 10
+        "id": 5,
+        "name": "Физические тренировки",
+        "description": "Помогаю прокачать навык «Физические тренировки»",
+        "subcategoryId": 41
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1005/600/400",
+        "https://picsum.photos/id/1055/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 24, "name": "Образование и развитие", "categoryId": 4 },
-        { "id": 41, "name": "Физические тренировки", "categoryId": 6 }
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        },
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
       ],
-      "likesCount": 178,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 33,
+      "likedByUserIds": [
+        15,
+        3,
+        4,
+        36,
+        13,
+        17
+      ],
+      "createdAt": "2025-01-28T00:00:00Z"
     },
     {
       "id": 6,
-      "avatarUrl": "https://i.pravatar.cc/150?img=6",
-      "name": "Екатерина Волкова",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Нижний Новгород",
-      "age": "22",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1006/200/200",
+      "name": "Иван Смирнов",
+      "location": "Казань",
+      "age": "37",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Креативное письмо",
-        "description": "Помогаю освоить направление «Креативное письмо», делюсь практическими знаниями и опытом.",
-        "categoryId": 2,
-        "subcategoryId": 14
+        "id": 6,
+        "name": "Тайм-менеджмент",
+        "description": "Помогаю прокачать навык «Тайм-менеджмент»",
+        "subcategoryId": 6
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1006/600/400",
+        "https://picsum.photos/id/1056/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 1, "name": "Управление командой", "categoryId": 1 },
-        { "id": 27, "name": "Навыки преподавания", "categoryId": 4 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 1, "name": "Бизнес и карьера" },
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 215,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 133,
+      "likedByUserIds": [
+        23,
+        17,
+        31,
+        14,
+        49
+      ],
+      "createdAt": "2024-10-23T00:00:00Z"
     },
     {
       "id": 7,
-      "avatarUrl": "https://i.pravatar.cc/150?img=7",
-      "name": "Андрей Смирнов",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Самара",
-      "age": "29",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1007/200/200",
+      "name": "Ольга Иванов",
+      "location": "Казань",
+      "age": "31",
+      "gender": "Женский",
       "skillCanTeach": {
-        "name": "Английский",
-        "description": "Помогаю освоить направление «Английский», делюсь практическими знаниями и опытом.",
-        "categoryId": 3,
-        "subcategoryId": 17
+        "id": 7,
+        "name": "Физические тренировки",
+        "description": "Помогаю прокачать навык «Физические тренировки»",
+        "subcategoryId": 41
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1007/600/400",
+        "https://picsum.photos/id/1057/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 3, "name": "Продажи и переговоры", "categoryId": 1 },
-        { "id": 26, "name": "Навыки обучения", "categoryId": 4 }
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 1, "name": "Бизнес и карьера" },
-        { "id": 4, "name": "Образование и развитие" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
       ],
-      "likesCount": 144,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 73,
+      "likedByUserIds": [
+        31,
+        49,
+        42,
+        48,
+        37
+      ],
+      "createdAt": "2024-09-07T00:00:00Z"
     },
     {
       "id": 8,
-      "avatarUrl": "https://i.pravatar.cc/150?img=8",
-      "name": "Ольга Иванова",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Воронеж",
-      "age": "28",
+      "avatarUrl": "https://picsum.photos/id/1008/200/200",
+      "name": "Ольга Волкова",
+      "location": "Новосибирск",
+      "age": "35",
       "gender": "Женский",
       "skillCanTeach": {
-        "name": "Видеомонтаж",
-        "description": "Помогаю освоить направление «Видеомонтаж», делюсь практическими знаниями и опытом.",
-        "categoryId": 2,
-        "subcategoryId": 11
+        "id": 8,
+        "name": "Физические тренировки",
+        "description": "Помогаю прокачать навык «Физические тренировки»",
+        "subcategoryId": 41
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1008/600/400",
+        "https://picsum.photos/id/1058/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 19, "name": "Испанский", "categoryId": 3 }
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" }
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
       ],
-      "likesCount": 198,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 53,
+      "likedByUserIds": [
+        41,
+        18,
+        43,
+        22,
+        11
+      ],
+      "createdAt": "2024-09-09T00:00:00Z"
     },
     {
       "id": 9,
-      "avatarUrl": "https://i.pravatar.cc/150?img=9",
-      "name": "Максим Фёдоров",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Краснодар",
+      "avatarUrl": "https://picsum.photos/id/1009/200/200",
+      "name": "Алина Иванов",
+      "location": "Новосибирск",
       "age": "24",
-      "gender": "Мужской",
+      "gender": "Женский",
       "skillCanTeach": {
-        "name": "Личный бренд",
-        "description": "Помогаю освоить направление «Личный бренд», делюсь практическими знаниями и опытом.",
-        "categoryId": 1,
-        "subcategoryId": 4
+        "id": 9,
+        "name": "Физические тренировки",
+        "description": "Помогаю прокачать навык «Физические тренировки»",
+        "subcategoryId": 41
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1009/600/400",
+        "https://picsum.photos/id/1059/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 14, "name": "Креативное письмо", "categoryId": 2 },
-        { "id": 31, "name": "Уборка и организация", "categoryId": 5 }
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 5, "name": "Дом и уют" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
       ],
-      "likesCount": 170,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 1,
+      "likedByUserIds": [
+        1,
+        12,
+        43,
+        36,
+        18
+      ],
+      "createdAt": "2025-01-08T00:00:00Z"
     },
     {
       "id": 10,
-      "avatarUrl": "https://i.pravatar.cc/150?img=10",
-      "name": "Наталья Орлова",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Тула",
-      "age": "27",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1010/200/200",
+      "name": "Артём Кузнецов",
+      "location": "Новосибирск",
+      "age": "25",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Французский",
-        "description": "Помогаю освоить направление «Французский», делюсь практическими знаниями и опытом.",
-        "categoryId": 3,
-        "subcategoryId": 18
+        "id": 10,
+        "name": "Физические тренировки",
+        "description": "Помогаю прокачать навык «Физические тренировки»",
+        "subcategoryId": 41
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1010/600/400",
+        "https://picsum.photos/id/1060/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        },
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
       ],
-      "likesCount": 125,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 91,
+      "likedByUserIds": [
+        15,
+        27,
+        47
+      ],
+      "createdAt": "2024-09-12T00:00:00Z"
     },
     {
       "id": 11,
-      "avatarUrl": "https://i.pravatar.cc/150?img=11",
-      "name": "Сергей Николаев",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Ростов-на-Дону",
-      "age": "26",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1011/200/200",
+      "name": "Мария Иванов",
+      "location": "Москва",
+      "age": "28",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Продажи и переговоры",
-        "description": "Помогаю освоить направление «Продажи и переговоры», делюсь практическими знаниями и опытом.",
-        "categoryId": 1,
-        "subcategoryId": 3
+        "id": 11,
+        "name": "Креативное письмо",
+        "description": "Помогаю прокачать навык «Креативное письмо»",
+        "subcategoryId": 14
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1011/600/400",
+        "https://picsum.photos/id/1061/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 10, "name": "Фотография", "categoryId": 2 },
-        { "id": 27, "name": "Навыки преподавания", "categoryId": 4 },
-        { "id": 41, "name": "Физические тренировки", "categoryId": 6 }
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        },
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 145,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 6,
+      "likedByUserIds": [
+        13,
+        31,
+        8,
+        23,
+        29
+      ],
+      "createdAt": "2024-12-10T00:00:00Z"
     },
     {
       "id": 12,
-      "avatarUrl": "https://i.pravatar.cc/150?img=12",
-      "name": "Елена Васильева",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Владивосток",
-      "age": "29",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1012/200/200",
+      "name": "Сергей Петров",
+      "location": "Пермь",
+      "age": "39",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Тайм-менеджмент",
-        "description": "Помогаю освоить направление «Тайм-менеджмент», делюсь практическими знаниями и опытом.",
-        "categoryId": 1,
-        "subcategoryId": 6
+        "id": 12,
+        "name": "Рисование и иллюстрация",
+        "description": "Помогаю прокачать навык «Рисование и иллюстрация»",
+        "subcategoryId": 9
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1012/600/400",
+        "https://picsum.photos/id/1062/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 33, "name": "Приготовление еды", "categoryId": 5 },
-        { "id": 28, "name": "Скорочтение", "categoryId": 4 }
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        },
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 5, "name": "Дом и уют" },
-        { "id": 4, "name": "Образование и развитие" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
       ],
-      "likesCount": 112,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 38,
+      "likedByUserIds": [
+        43,
+        27,
+        38,
+        9,
+        48
+      ],
+      "createdAt": "2024-12-28T00:00:00Z"
     },
     {
       "id": 13,
-      "avatarUrl": "https://i.pravatar.cc/150?img=13",
-      "name": "Роман Сидоров",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Самара",
-      "age": "27",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1013/200/200",
+      "name": "Иван Кузнецов",
+      "location": "Казань",
+      "age": "33",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Ремонт",
-        "description": "Помогаю освоить направление «Ремонт», делюсь практическими знаниями и опытом.",
-        "categoryId": 5,
-        "subcategoryId": 35
+        "id": 13,
+        "name": "Навыки обучения",
+        "description": "Помогаю прокачать навык «Навыки обучения»",
+        "subcategoryId": 26
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1013/600/400",
+        "https://picsum.photos/id/1063/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 12, "name": "Музыка и звук", "categoryId": 2 }
+        {
+          "id": 26,
+          "name": "Навыки обучения",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 2, "name": "Творчество и искусство" }
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 134,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 89,
+      "likedByUserIds": [
+        29,
+        3,
+        27,
+        19
+      ],
+      "createdAt": "2025-01-28T00:00:00Z"
     },
     {
       "id": 14,
-      "avatarUrl": "https://i.pravatar.cc/150?img=14",
-      "name": "Юлия Козлова",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Красноярск",
-      "age": "23",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1014/200/200",
+      "name": "Никита Смирнов",
+      "location": "Москва",
+      "age": "31",
+      "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Актёрское мастерство",
-        "description": "Помогаю освоить направление «Актёрское мастерство», делюсь практическими знаниями и опытом.",
-        "categoryId": 2,
-        "subcategoryId": 13
+        "id": 14,
+        "name": "Физические тренировки",
+        "description": "Помогаю прокачать навык «Физические тренировки»",
+        "subcategoryId": 41
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1014/600/400",
+        "https://picsum.photos/id/1064/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 24, "name": "Образование и развитие", "categoryId": 4 },
-        { "id": 40, "name": "Осознанность", "categoryId": 6 }
+        {
+          "id": 26,
+          "name": "Навыки обучения",
+          "categoryId": 4
+        },
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 165,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 17,
+      "likedByUserIds": [],
+      "createdAt": "2024-12-20T00:00:00Z"
     },
     {
       "id": 15,
-      "avatarUrl": "https://i.pravatar.cc/150?img=15",
-      "name": "Виктор Пономарёв",
-      "description": "Люблю развиваться, изучать новые навыки и делиться своим опытом с другими.",
-      "location": "Пермь",
-      "age": "28",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1015/200/200",
+      "name": "Анна Орлов",
+      "location": "Новосибирск",
+      "age": "29",
+      "gender": "Женский",
       "skillCanTeach": {
-        "name": "Личный бренд",
-        "description": "Помогаю освоить направление «Личный бренд», делюсь практическими знаниями и опытом.",
-        "categoryId": 1,
-        "subcategoryId": 4
+        "id": 15,
+        "name": "Подготовка к экзаменам (IELTS, TOEFL)",
+        "description": "Помогаю прокачать навык «Подготовка к экзаменам (IELTS, TOEFL)»",
+        "subcategoryId": 23
       },
-      "images": ["https://images.unsplash.com/photo-1521737604893-d14cc237f11d"],
+      "images": [
+        "https://picsum.photos/id/1015/600/400",
+        "https://picsum.photos/id/1065/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 },
-        { "id": 31, "name": "Уборка и организация", "categoryId": 5 }
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        },
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 6, "name": "Здоровье и лайфстайл" },
-        { "id": 5, "name": "Дом и уют" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 198,
+      "likesCount": 115,
+      "likedByUserIds": [
+        28,
+        25,
+        12,
+        20
+      ],
       "createdAt": "2024-11-01T00:00:00Z"
     },
     {
       "id": 16,
-      "avatarUrl": "https://i.pravatar.cc/150?img=16",
-      "name": "Алексей Волков",
-      "description": "Стремлюсь к постоянному росту и люблю делиться знаниями с окружающими.",
-      "location": "Москва",
-      "age": "25",
+      "avatarUrl": "https://picsum.photos/id/1016/200/200",
+      "name": "Дмитрий Кузнецов",
+      "location": "Казань",
+      "age": "44",
       "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Маркетинг и реклама",
-        "description": "Помогаю освоить направление «Маркетинг и реклама», даю практические советы по продвижению и стратегиям.",
-        "categoryId": 1,
-        "subcategoryId": 2
+        "id": 16,
+        "name": "Питание и ЗОЖ",
+        "description": "Помогаю прокачать навык «Питание и ЗОЖ»",
+        "subcategoryId": 38
       },
-      "images": ["https://images.unsplash.com/photo-1502767089025-6572583495d2"],
+      "images": [
+        "https://picsum.photos/id/1016/600/400",
+        "https://picsum.photos/id/1066/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 11, "name": "Видеомонтаж", "categoryId": 2 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 2, "name": "Творчество и искусство" }
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 140,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 9,
+      "likedByUserIds": [
+        4,
+        39,
+        29
+      ],
+      "createdAt": "2024-12-04T00:00:00Z"
     },
     {
       "id": 17,
-      "avatarUrl": "https://i.pravatar.cc/150?img=17",
-      "name": "Мария Смирнова",
-      "description": "Люблю учиться новому и пробовать разные подходы к развитию.",
-      "location": "Санкт-Петербург",
-      "age": "27",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1017/200/200",
+      "name": "Иван Волкова",
+      "location": "Новосибирск",
+      "age": "21",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Фотография",
-        "description": "Помогаю освоить направление «Фотография», делюсь опытом и техниками съемки.",
-        "categoryId": 2,
-        "subcategoryId": 10
+        "id": 17,
+        "name": "Подготовка к экзаменам (IELTS, TOEFL)",
+        "description": "Помогаю прокачать навык «Подготовка к экзаменам (IELTS, TOEFL)»",
+        "subcategoryId": 23
       },
-      "images": ["https://images.unsplash.com/photo-1502767089025-6572583495d2"],
+      "images": [
+        "https://picsum.photos/id/1017/600/400",
+        "https://picsum.photos/id/1067/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 1, "name": "Управление командой", "categoryId": 1 },
-        { "id": 33, "name": "Приготовление еды", "categoryId": 5 },
-        { "id": 37, "name": "Йога и медитация", "categoryId": 6 }
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        },
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 1, "name": "Бизнес и карьера" },
-        { "id": 5, "name": "Дом и уют" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 178,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 90,
+      "likedByUserIds": [
+        30,
+        22,
+        36,
+        20,
+        10,
+        16
+      ],
+      "createdAt": "2024-10-13T00:00:00Z"
     },
     {
       "id": 18,
-      "avatarUrl": "https://i.pravatar.cc/150?img=18",
-      "name": "Дмитрий Петров",
-      "description": "Люблю делиться опытом и помогать другим достигать целей.",
-      "location": "Казань",
-      "age": "29",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1018/200/200",
+      "name": "Никита Смирнов",
+      "location": "Новосибирск",
+      "age": "42",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Проектное управление",
-        "description": "Помогаю освоить направление «Проектное управление», делюсь практическими знаниями и инструментами.",
-        "categoryId": 1,
-        "subcategoryId": 7
+        "id": 18,
+        "name": "Приготовление еды",
+        "description": "Помогаю прокачать навык «Приготовление еды»",
+        "subcategoryId": 33
       },
-      "images": ["https://images.unsplash.com/photo-1502767089025-6572583495d2"],
+      "images": [
+        "https://picsum.photos/id/1018/600/400",
+        "https://picsum.photos/id/1068/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 12, "name": "Музыка и звук", "categoryId": 2 },
-        { "id": 40, "name": "Осознанность", "categoryId": 6 }
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        },
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
       ],
-      "likesCount": 160,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 131,
+      "likedByUserIds": [
+        24,
+        16,
+        27,
+        37,
+        5
+      ],
+      "createdAt": "2025-01-17T00:00:00Z"
     },
     {
       "id": 19,
-      "avatarUrl": "https://i.pravatar.cc/150?img=19",
-      "name": "Ольга Кузнецова",
-      "description": "Люблю развивать свои навыки и вдохновлять других на обучение.",
-      "location": "Новосибирск",
-      "age": "26",
+      "avatarUrl": "https://picsum.photos/id/1019/200/200",
+      "name": "Алина Волкова",
+      "location": "Пермь",
+      "age": "45",
       "gender": "Женский",
       "skillCanTeach": {
+        "id": 19,
         "name": "Креативное письмо",
-        "description": "Помогаю освоить направление «Креативное письмо», делюсь методами и практическими приёмами.",
-        "categoryId": 2,
+        "description": "Помогаю прокачать навык «Креативное письмо»",
         "subcategoryId": 14
       },
-      "images": ["https://images.unsplash.com/photo-1502767089025-6572583495d2"],
+      "images": [
+        "https://picsum.photos/id/1019/600/400",
+        "https://picsum.photos/id/1069/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 24, "name": "Образование и развитие", "categoryId": 4 },
-        { "id": 33, "name": "Приготовление еды", "categoryId": 5 },
-        { "id": 41, "name": "Физические тренировки", "categoryId": 6 }
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        },
+        {
+          "id": 26,
+          "name": "Навыки обучения",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 5, "name": "Дом и уют" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 155,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 56,
+      "likedByUserIds": [],
+      "createdAt": "2024-10-19T00:00:00Z"
     },
     {
       "id": 20,
-      "avatarUrl": "https://i.pravatar.cc/150?img=20",
-      "name": "Виктория Морозова",
-      "description": "Стремлюсь к личностному росту и люблю новые вызовы.",
-      "location": "Екатеринбург",
-      "age": "28",
+      "avatarUrl": "https://picsum.photos/id/1020/200/200",
+      "name": "Полина Соколова",
+      "location": "Новосибирск",
+      "age": "31",
       "gender": "Женский",
       "skillCanTeach": {
-        "name": "Личностное развитие",
-        "description": "Помогаю освоить направление «Личностное развитие», делюсь знаниями и практическими советами.",
-        "categoryId": 4,
-        "subcategoryId": 25
+        "id": 20,
+        "name": "Рисование и иллюстрация",
+        "description": "Помогаю прокачать навык «Рисование и иллюстрация»",
+        "subcategoryId": 9
       },
-      "images": ["https://images.unsplash.com/photo-1502767089025-6572583495d2"],
+      "images": [
+        "https://picsum.photos/id/1020/600/400",
+        "https://picsum.photos/id/1070/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 },
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
       ],
-      "likesCount": 190,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 19,
+      "likedByUserIds": [
+        22,
+        44,
+        31,
+        2,
+        38
+      ],
+      "createdAt": "2025-01-07T00:00:00Z"
     },
     {
       "id": 21,
-      "avatarUrl": "https://i.pravatar.cc/150?img=21",
-      "name": "Илья Соколов",
-      "description": "Люблю делиться опытом и осваивать новые навыки.",
-      "location": "Тула",
-      "age": "24",
+      "avatarUrl": "https://picsum.photos/id/1021/200/200",
+      "name": "Сергей Петров",
+      "location": "Новосибирск",
+      "age": "20",
       "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Предпринимательство",
-        "description": "Помогаю освоить направление «Предпринимательство», делюсь стратегиями и практическими кейсами.",
-        "categoryId": 1,
-        "subcategoryId": 8
+        "id": 21,
+        "name": "Английский",
+        "description": "Помогаю прокачать навык «Английский»",
+        "subcategoryId": 17
       },
-      "images": ["https://images.unsplash.com/photo-1531123897727-8f129e1688ce"],
+      "images": [
+        "https://picsum.photos/id/1021/600/400",
+        "https://picsum.photos/id/1071/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 },
-        { "id": 17, "name": "Английский", "categoryId": 3 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 3, "name": "Иностранные языки" }
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 120,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 90,
+      "likedByUserIds": [
+        11,
+        47,
+        24
+      ],
+      "createdAt": "2024-11-05T00:00:00Z"
     },
     {
       "id": 22,
-      "avatarUrl": "https://i.pravatar.cc/150?img=22",
-      "name": "Анна Попова",
-      "description": "Люблю развиваться и узнавать что-то новое каждый день.",
-      "location": "Краснодар",
-      "age": "26",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1022/200/200",
+      "name": "Дарья Кузнецов",
+      "location": "Санкт-Петербург",
+      "age": "21",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Йога и медитация",
-        "description": "Помогаю освоить направление «Йога и медитация», делюсь практиками для расслабления и баланса.",
-        "categoryId": 6,
-        "subcategoryId": 37
+        "id": 22,
+        "name": "Тайм-менеджмент",
+        "description": "Помогаю прокачать навык «Тайм-менеджмент»",
+        "subcategoryId": 6
       },
-      "images": ["https://images.unsplash.com/photo-1531123897727-8f129e1688ce"],
+      "images": [
+        "https://picsum.photos/id/1022/600/400",
+        "https://picsum.photos/id/1072/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 1, "name": "Управление командой", "categoryId": 1 },
-        { "id": 10, "name": "Фотография", "categoryId": 2 },
-        { "id": 28, "name": "Скорочтение", "categoryId": 4 }
+        {
+          "id": 26,
+          "name": "Навыки обучения",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 1, "name": "Бизнес и карьера" },
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 4, "name": "Образование и развитие" }
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 210,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 76,
+      "likedByUserIds": [
+        48,
+        3,
+        32,
+        12
+      ],
+      "createdAt": "2024-11-15T00:00:00Z"
     },
     {
       "id": 23,
-      "avatarUrl": "https://i.pravatar.cc/150?img=23",
-      "name": "Сергей Морозов",
-      "description": "Стараюсь постоянно развиваться и осваивать новые навыки.",
-      "location": "Воронеж",
-      "age": "28",
+      "avatarUrl": "https://picsum.photos/id/1023/200/200",
+      "name": "Дмитрий Иванов",
+      "location": "Новосибирск",
+      "age": "36",
       "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Физические тренировки",
-        "description": "Помогаю освоить направление «Физические тренировки», делюсь программами и мотивацией.",
-        "categoryId": 6,
-        "subcategoryId": 41
+        "id": 23,
+        "name": "Тайм-менеджмент",
+        "description": "Помогаю прокачать навык «Тайм-менеджмент»",
+        "subcategoryId": 6
       },
-      "images": ["https://images.unsplash.com/photo-1531123897727-8f129e1688ce"],
+      "images": [
+        "https://picsum.photos/id/1023/600/400",
+        "https://picsum.photos/id/1073/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 24, "name": "Образование и развитие", "categoryId": 4 },
-        { "id": 12, "name": "Музыка и звук", "categoryId": 2 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 2, "name": "Творчество и искусство" }
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 175,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 1,
+      "likedByUserIds": [
+        43,
+        33,
+        29,
+        7,
+        13
+      ],
+      "createdAt": "2024-09-02T00:00:00Z"
     },
     {
       "id": 24,
-      "avatarUrl": "https://i.pravatar.cc/150?img=24",
-      "name": "Екатерина Кузнецова",
-      "description": "Обожаю изучать новые направления и делиться опытом.",
-      "location": "Нижний Новгород",
-      "age": "25",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1024/200/200",
+      "name": "Сергей Орлов",
+      "location": "Санкт-Петербург",
+      "age": "19",
+      "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Приготовление еды",
-        "description": "Помогаю освоить направление «Приготовление еды», делюсь рецептами и кулинарными лайфхаками.",
-        "categoryId": 5,
-        "subcategoryId": 33
+        "id": 24,
+        "name": "Питание и ЗОЖ",
+        "description": "Помогаю прокачать навык «Питание и ЗОЖ»",
+        "subcategoryId": 38
       },
-      "images": ["https://images.unsplash.com/photo-1531123897727-8f129e1688ce"],
+      "images": [
+        "https://picsum.photos/id/1024/600/400",
+        "https://picsum.photos/id/1074/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 3, "name": "Продажи и переговоры", "categoryId": 1 },
-        { "id": 20, "name": "Немецкий", "categoryId": 3 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        },
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 1, "name": "Бизнес и карьера" },
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
       ],
-      "likesCount": 192,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 114,
+      "likedByUserIds": [
+        4,
+        43
+      ],
+      "createdAt": "2025-01-24T00:00:00Z"
     },
     {
       "id": 25,
-      "avatarUrl": "https://i.pravatar.cc/150?img=25",
-      "name": "Артём Николаев",
-      "description": "Люблю обучаться и развивать свои навыки каждый день.",
-      "location": "Самара",
-      "age": "27",
+      "avatarUrl": "https://picsum.photos/id/1025/200/200",
+      "name": "Максим Петров",
+      "location": "Новосибирск",
+      "age": "24",
       "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Рисование и иллюстрация",
-        "description": "Помогаю освоить направление «Рисование и иллюстрация», делюсь техниками и творческими приёмами.",
-        "categoryId": 2,
-        "subcategoryId": 9
+        "id": 25,
+        "name": "Креативное письмо",
+        "description": "Помогаю прокачать навык «Креативное письмо»",
+        "subcategoryId": 14
       },
-      "images": ["https://images.unsplash.com/photo-1531123897727-8f129e1688ce"],
+      "images": [
+        "https://picsum.photos/id/1025/600/400",
+        "https://picsum.photos/id/1075/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 26, "name": "Навыки обучения", "categoryId": 4 },
-        { "id": 37, "name": "Йога и медитация", "categoryId": 6 }
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        },
+        {
+          "id": 26,
+          "name": "Навыки обучения",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 167,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 144,
+      "likedByUserIds": [],
+      "createdAt": "2024-12-25T00:00:00Z"
     },
     {
       "id": 26,
-      "avatarUrl": "https://i.pravatar.cc/150?img=26",
-      "name": "Никита Ефимов",
-      "description": "Люблю учиться и делиться знаниями с другими.",
-      "location": "Владивосток",
-      "age": "30",
+      "avatarUrl": "https://picsum.photos/id/1026/200/200",
+      "name": "Дмитрий Волкова",
+      "location": "Санкт-Петербург",
+      "age": "43",
       "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Тайм-менеджмент",
-        "description": "Помогаю освоить «Тайм-менеджмент», даю советы по продуктивности и организации времени.",
-        "categoryId": 1,
-        "subcategoryId": 6
+        "id": 26,
+        "name": "Питание и ЗОЖ",
+        "description": "Помогаю прокачать навык «Питание и ЗОЖ»",
+        "subcategoryId": 38
       },
-      "images": ["https://images.unsplash.com/photo-1544005313-94ddf0286df2"],
+      "images": [
+        "https://picsum.photos/id/1026/600/400",
+        "https://picsum.photos/id/1076/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 12, "name": "Музыка и звук", "categoryId": 2 },
-        { "id": 17, "name": "Английский", "categoryId": 3 }
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        },
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 3, "name": "Иностранные языки" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 130,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 81,
+      "likedByUserIds": [
+        37
+      ],
+      "createdAt": "2024-10-05T00:00:00Z"
     },
     {
       "id": 27,
-      "avatarUrl": "https://i.pravatar.cc/150?img=27",
-      "name": "Валерия Павлова",
-      "description": "Интересуюсь искусством и саморазвитием, люблю новые вызовы.",
-      "location": "Ростов-на-Дону",
-      "age": "25",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1027/200/200",
+      "name": "Мария Петров",
+      "location": "Казань",
+      "age": "30",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Фотография",
-        "description": "Помогаю освоить «Фотографию», делюсь навыками съемки и редактирования.",
-        "categoryId": 2,
-        "subcategoryId": 10
+        "id": 27,
+        "name": "Физические тренировки",
+        "description": "Помогаю прокачать навык «Физические тренировки»",
+        "subcategoryId": 41
       },
-      "images": ["https://images.unsplash.com/photo-1544005313-94ddf0286df2"],
+      "images": [
+        "https://picsum.photos/id/1027/600/400",
+        "https://picsum.photos/id/1077/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 28, "name": "Скорочтение", "categoryId": 4 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        },
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
       ],
-      "likesCount": 145,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 141,
+      "likedByUserIds": [
+        35,
+        18,
+        41,
+        19
+      ],
+      "createdAt": "2024-12-01T00:00:00Z"
     },
     {
       "id": 28,
-      "avatarUrl": "https://i.pravatar.cc/150?img=28",
-      "name": "Михаил Гусев",
-      "description": "Люблю ставить цели и достигать их, а также помогать другим.",
-      "location": "Красноярск",
-      "age": "29",
+      "avatarUrl": "https://picsum.photos/id/1028/200/200",
+      "name": "Максим Смирнов",
+      "location": "Пермь",
+      "age": "42",
       "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Продажи и переговоры",
-        "description": "Помогаю освоить «Продажи и переговоры», делюсь практическими приёмами и стратегиями.",
-        "categoryId": 1,
-        "subcategoryId": 3
+        "id": 28,
+        "name": "Управление командой",
+        "description": "Помогаю прокачать навык «Управление командой»",
+        "subcategoryId": 1
       },
-      "images": ["https://images.unsplash.com/photo-1544005313-94ddf0286df2"],
+      "images": [
+        "https://picsum.photos/id/1028/600/400",
+        "https://picsum.photos/id/1078/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 },
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 41, "name": "Физические тренировки", "categoryId": 6 }
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        },
+        {
+          "id": 23,
+          "name": "Подготовка к экзаменам (IELTS, TOEFL)",
+          "categoryId": 3
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
       ],
-      "likesCount": 160,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 74,
+      "likedByUserIds": [
+        41,
+        37
+      ],
+      "createdAt": "2025-01-24T00:00:00Z"
     },
     {
       "id": 29,
-      "avatarUrl": "https://i.pravatar.cc/150?img=29",
-      "name": "Дарья Соловьёва",
-      "description": "Стремлюсь развиваться и пробовать новые направления.",
-      "location": "Самара",
-      "age": "27",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1029/200/200",
+      "name": "Никита Волкова",
+      "location": "Пермь",
+      "age": "34",
+      "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Коучинг",
-        "description": "Помогаю освоить «Коучинг», обучаю навыкам мотивации и поддержки других.",
-        "categoryId": 4,
-        "subcategoryId": 30
+        "id": 29,
+        "name": "Тайм-менеджмент",
+        "description": "Помогаю прокачать навык «Тайм-менеджмент»",
+        "subcategoryId": 6
       },
-      "images": ["https://images.unsplash.com/photo-1544005313-94ddf0286df2"],
+      "images": [
+        "https://picsum.photos/id/1029/600/400",
+        "https://picsum.photos/id/1079/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 10, "name": "Фотография", "categoryId": 2 },
-        { "id": 37, "name": "Йога и медитация", "categoryId": 6 }
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
       ],
-      "likesCount": 175,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 118,
+      "likedByUserIds": [
+        26,
+        23,
+        9,
+        38,
+        13
+      ],
+      "createdAt": "2025-01-10T00:00:00Z"
     },
     {
       "id": 30,
-      "avatarUrl": "https://i.pravatar.cc/150?img=30",
-      "name": "Андрей Крылов",
-      "description": "Люблю учиться и совершенствовать свои навыки каждый день.",
-      "location": "Екатеринбург",
-      "age": "28",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1030/200/200",
+      "name": "Артём Иванов",
+      "location": "Новосибирск",
+      "age": "21",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Ремонт",
-        "description": "Помогаю освоить «Ремонт», делюсь опытом, инструментами и лайфхаками.",
-        "categoryId": 5,
-        "subcategoryId": 35
+        "id": 30,
+        "name": "Навыки обучения",
+        "description": "Помогаю прокачать навык «Навыки обучения»",
+        "subcategoryId": 26
       },
-      "images": ["https://images.unsplash.com/photo-1544005313-94ddf0286df2"],
+      "images": [
+        "https://picsum.photos/id/1030/600/400",
+        "https://picsum.photos/id/1080/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 18, "name": "Французский", "categoryId": 3 },
-        { "id": 24, "name": "Образование и развитие", "categoryId": 4 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        },
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 4, "name": "Образование и развитие" }
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        },
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 150,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 105,
+      "likedByUserIds": [
+        14
+      ],
+      "createdAt": "2024-11-29T00:00:00Z"
     },
     {
       "id": 31,
-      "avatarUrl": "https://i.pravatar.cc/150?img=31",
-      "name": "Александра Лебедева",
-      "description": "Люблю развиваться и пробовать новые направления обучения.",
-      "location": "Пермь",
-      "age": "26",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1031/200/200",
+      "name": "Анна Иванов",
+      "location": "Екатеринбург",
+      "age": "31",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Английский",
-        "description": "Помогаю освоить «Английский», даю практические советы по грамматике и разговорной практике.",
-        "categoryId": 3,
-        "subcategoryId": 17
+        "id": 31,
+        "name": "Тайм-менеджмент",
+        "description": "Помогаю прокачать навык «Тайм-менеджмент»",
+        "subcategoryId": 6
       },
-      "images": ["https://images.unsplash.com/photo-1524504388940-b1c1722653e1"],
+      "images": [
+        "https://picsum.photos/id/1031/600/400",
+        "https://picsum.photos/id/1081/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 },
-        { "id": 41, "name": "Физические тренировки", "categoryId": 6 }
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        },
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 155,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 93,
+      "likedByUserIds": [
+        11,
+        30,
+        34,
+        33
+      ],
+      "createdAt": "2024-09-23T00:00:00Z"
     },
     {
       "id": 32,
-      "avatarUrl": "https://i.pravatar.cc/150?img=32",
-      "name": "Константин Захаров",
-      "description": "Стараюсь развиваться и делиться своим опытом с другими.",
-      "location": "Воронеж",
-      "age": "29",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1032/200/200",
+      "name": "Полина Кузнецов",
+      "location": "Новосибирск",
+      "age": "36",
+      "gender": "Женский",
       "skillCanTeach": {
-        "name": "Проектное управление",
-        "description": "Помогаю освоить «Проектное управление», делюсь инструментами и практическими подходами.",
-        "categoryId": 1,
-        "subcategoryId": 7
+        "id": 32,
+        "name": "Питание и ЗОЖ",
+        "description": "Помогаю прокачать навык «Питание и ЗОЖ»",
+        "subcategoryId": 38
       },
-      "images": ["https://images.unsplash.com/photo-1524504388940-b1c1722653e1"],
+      "images": [
+        "https://picsum.photos/id/1032/600/400",
+        "https://picsum.photos/id/1082/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 12, "name": "Музыка и звук", "categoryId": 2 },
-        { "id": 28, "name": "Скорочтение", "categoryId": 4 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        },
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 168,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 70,
+      "likedByUserIds": [
+        30,
+        11,
+        26,
+        21,
+        45
+      ],
+      "createdAt": "2024-09-11T00:00:00Z"
     },
     {
       "id": 33,
-      "avatarUrl": "https://i.pravatar.cc/150?img=33",
-      "name": "Анастасия Мороз",
-      "description": "Люблю обучение и изучение разных направлений.",
-      "location": "Нижний Новгород",
-      "age": "27",
+      "avatarUrl": "https://picsum.photos/id/1033/200/200",
+      "name": "Анна Кузнецов",
+      "location": "Пермь",
+      "age": "22",
       "gender": "Женский",
       "skillCanTeach": {
-        "name": "Декор и DIY",
-        "description": "Помогаю освоить «Декор и DIY», делюсь идеями и мастер-классами.",
-        "categoryId": 2,
-        "subcategoryId": 16
+        "id": 33,
+        "name": "Управление командой",
+        "description": "Помогаю прокачать навык «Управление командой»",
+        "subcategoryId": 1
       },
-      "images": ["https://images.unsplash.com/photo-1524504388940-b1c1722653e1"],
+      "images": [
+        "https://picsum.photos/id/1033/600/400",
+        "https://picsum.photos/id/1083/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 33, "name": "Приготовление еды", "categoryId": 5 },
-        { "id": 39, "name": "Ментальное здоровье", "categoryId": 6 }
+        {
+          "id": 1,
+          "name": "Управление командой",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 5, "name": "Дом и уют" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
       ],
-      "likesCount": 160,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 42,
+      "likedByUserIds": [
+        4,
+        31,
+        10,
+        24,
+        38
+      ],
+      "createdAt": "2024-10-16T00:00:00Z"
     },
     {
       "id": 34,
-      "avatarUrl": "https://i.pravatar.cc/150?img=34",
-      "name": "Роман Громов",
-      "description": "Интересуюсь личностным ростом и обучением новым навыкам.",
-      "location": "Санкт-Петербург",
-      "age": "28",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1034/200/200",
+      "name": "Мария Петров",
+      "location": "Екатеринбург",
+      "age": "45",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Личный бренд",
-        "description": "Помогаю освоить «Личный бренд», делюсь стратегиями продвижения и опытом.",
-        "categoryId": 1,
-        "subcategoryId": 4
+        "id": 34,
+        "name": "Управление командой",
+        "description": "Помогаю прокачать навык «Управление командой»",
+        "subcategoryId": 1
       },
-      "images": ["https://images.unsplash.com/photo-1524504388940-b1c1722653e1"],
+      "images": [
+        "https://picsum.photos/id/1034/600/400",
+        "https://picsum.photos/id/1084/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 14, "name": "Креативное письмо", "categoryId": 2 },
-        { "id": 21, "name": "Китайский", "categoryId": 3 },
-        { "id": 40, "name": "Осознанность", "categoryId": 6 }
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
       ],
-      "likesCount": 172,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 63,
+      "likedByUserIds": [
+        2,
+        1,
+        22,
+        27
+      ],
+      "createdAt": "2024-09-28T00:00:00Z"
     },
     {
       "id": 35,
-      "avatarUrl": "https://i.pravatar.cc/150?img=35",
-      "name": "Светлана Ковалёва",
-      "description": "Стремлюсь к развитию и люблю делиться знаниями с другими.",
-      "location": "Томск",
-      "age": "26",
+      "avatarUrl": "https://picsum.photos/id/1035/200/200",
+      "name": "Ольга Иванов",
+      "location": "Санкт-Петербург",
+      "age": "24",
       "gender": "Женский",
       "skillCanTeach": {
-        "name": "Личностное развитие",
-        "description": "Помогаю освоить «Личностное развитие», делюсь техниками и практическими советами.",
-        "categoryId": 4,
-        "subcategoryId": 25
+        "id": 35,
+        "name": "Питание и ЗОЖ",
+        "description": "Помогаю прокачать навык «Питание и ЗОЖ»",
+        "subcategoryId": 38
       },
-      "images": ["https://images.unsplash.com/photo-1524504388940-b1c1722653e1"],
+      "images": [
+        "https://picsum.photos/id/1035/600/400",
+        "https://picsum.photos/id/1085/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 11, "name": "Видеомонтаж", "categoryId": 2 },
-        { "id": 37, "name": "Йога и медитация", "categoryId": 6 },
-        { "id": 32, "name": "Домашние финансы", "categoryId": 5 }
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 6, "name": "Здоровье и лайфстайл" },
-        { "id": 5, "name": "Дом и уют" }
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
       ],
-      "likesCount": 185,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 52,
+      "likedByUserIds": [
+        31,
+        25
+      ],
+      "createdAt": "2025-01-27T00:00:00Z"
     },
     {
       "id": 36,
-      "avatarUrl": "https://i.pravatar.cc/150?img=36",
-      "name": "Артём Васильев",
-      "description": "Люблю развивать свои навыки и помогать другим расти.",
-      "location": "Казань",
-      "age": "27",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1036/200/200",
+      "name": "Дарья Соколова",
+      "location": "Новосибирск",
+      "age": "34",
+      "gender": "Женский",
       "skillCanTeach": {
-        "name": "Маркетинг и реклама",
-        "description": "Помогаю освоить «Маркетинг и рекламу», делюсь стратегиями продвижения и практическим опытом.",
-        "categoryId": 1,
-        "subcategoryId": 2
+        "id": 36,
+        "name": "Приготовление еды",
+        "description": "Помогаю прокачать навык «Приготовление еды»",
+        "subcategoryId": 33
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1036/600/400",
+        "https://picsum.photos/id/1086/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 12, "name": "Музыка и звук", "categoryId": 2 },
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 41, "name": "Физические тренировки", "categoryId": 6 }
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        }
       ],
-      "likesCount": 178,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 25,
+      "likedByUserIds": [],
+      "createdAt": "2025-01-10T00:00:00Z"
     },
     {
       "id": 37,
-      "avatarUrl": "https://i.pravatar.cc/150?img=37",
-      "name": "Мария Петрова",
-      "description": "Стремлюсь к саморазвитию и люблю обучать других.",
-      "location": "Сочи",
-      "age": "25",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1037/200/200",
+      "name": "Максим Орлов",
+      "location": "Екатеринбург",
+      "age": "27",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Актёрское мастерство",
-        "description": "Помогаю освоить «Актёрское мастерство», даю практические советы по сценической игре и технике речи.",
-        "categoryId": 2,
-        "subcategoryId": 13
+        "id": 37,
+        "name": "Английский",
+        "description": "Помогаю прокачать навык «Английский»",
+        "subcategoryId": 17
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1037/600/400",
+        "https://picsum.photos/id/1087/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 24, "name": "Образование и развитие", "categoryId": 4 },
-        { "id": 40, "name": "Осознанность", "categoryId": 6 }
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        },
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 165,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 17,
+      "likedByUserIds": [
+        35,
+        14,
+        50
+      ],
+      "createdAt": "2024-11-19T00:00:00Z"
     },
     {
       "id": 38,
-      "avatarUrl": "https://i.pravatar.cc/150?img=38",
-      "name": "Владимир Кузнецов",
-      "description": "Люблю обучение и практику новых навыков в жизни и работе.",
-      "location": "Тверь",
-      "age": "30",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1038/200/200",
+      "name": "Иван Орлов",
+      "location": "Пермь",
+      "age": "31",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Продажи и переговоры",
-        "description": "Помогаю освоить «Продажи и переговоры», делюсь практическими навыками и стратегиями.",
-        "categoryId": 1,
-        "subcategoryId": 3
+        "id": 38,
+        "name": "Английский",
+        "description": "Помогаю прокачать навык «Английский»",
+        "subcategoryId": 17
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1038/600/400",
+        "https://picsum.photos/id/1088/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 },
-        { "id": 21, "name": "Китайский", "categoryId": 3 }
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 3, "name": "Иностранные языки" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        }
       ],
-      "likesCount": 190,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 34,
+      "likedByUserIds": [
+        4,
+        7
+      ],
+      "createdAt": "2025-01-05T00:00:00Z"
     },
     {
       "id": 39,
-      "avatarUrl": "https://i.pravatar.cc/150?img=39",
-      "name": "Ольга Смирнова",
-      "description": "Люблю развиваться и обучать других, делиться опытом.",
-      "location": "Челябинск",
-      "age": "26",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1039/200/200",
+      "name": "Мария Смирнов",
+      "location": "Пермь",
+      "age": "32",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Навыки преподавания",
-        "description": "Помогаю освоить «Навыки преподавания», делюсь методиками и практическими советами.",
-        "categoryId": 4,
-        "subcategoryId": 29
+        "id": 39,
+        "name": "Управление командой",
+        "description": "Помогаю прокачать навык «Управление командой»",
+        "subcategoryId": 1
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1039/600/400",
+        "https://picsum.photos/id/1089/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 33, "name": "Приготовление еды", "categoryId": 5 },
-        { "id": 37, "name": "Йога и медитация", "categoryId": 6 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        },
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 5, "name": "Дом и уют" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 170,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 110,
+      "likedByUserIds": [
+        20,
+        31,
+        27,
+        34,
+        25
+      ],
+      "createdAt": "2025-01-11T00:00:00Z"
     },
     {
       "id": 40,
-      "avatarUrl": "https://i.pravatar.cc/150?img=40",
-      "name": "Дмитрий Фёдоров",
-      "description": "Стараюсь постоянно развиваться и делиться опытом с другими.",
-      "location": "Новосибирск",
-      "age": "28",
-      "gender": "Мужской",
-      "skillCanTeach": {
-        "name": "Образование и развитие",
-        "description": "Помогаю освоить «Образование и развитие», обучаю эффективным методам изучения.",
-        "categoryId": 4,
-        "subcategoryId": 24
-      },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
-      "subcategoriesWantToLearn": [
-        { "id": 12, "name": "Музыка и звук", "categoryId": 2 },
-        { "id": 19, "name": "Испанский", "categoryId": 3 },
-        { "id": 41, "name": "Физические тренировки", "categoryId": 6 }
-      ],
-      "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
-      ],
-      "likesCount": 185,
-      "createdAt": "2024-11-01T00:00:00Z"
-    },
-     {
-      "id": 41,
-      "avatarUrl": "https://i.pravatar.cc/150?img=41",
-      "name": "Ирина Белова",
-      "description": "Люблю развиваться и пробовать новые направления в обучении.",
-      "location": "Москва",
-      "age": "27",
+      "avatarUrl": "https://picsum.photos/id/1040/200/200",
+      "name": "Екатерина Петров",
+      "location": "Санкт-Петербург",
+      "age": "26",
       "gender": "Женский",
       "skillCanTeach": {
-        "name": "Йога и медитация",
-        "description": "Помогаю освоить «Йогу и медитацию», делюсь техниками дыхания и расслабления.",
-        "categoryId": 6,
-        "subcategoryId": 37
+        "id": 40,
+        "name": "Навыки преподавания",
+        "description": "Помогаю прокачать навык «Навыки преподавания»",
+        "subcategoryId": 29
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1040/600/400",
+        "https://picsum.photos/id/1090/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 }
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        },
+        {
+          "id": 9,
+          "name": "Рисование и иллюстрация",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 2, "name": "Творчество и искусство" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
       ],
-      "likesCount": 175,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 138,
+      "likedByUserIds": [
+        35
+      ],
+      "createdAt": "2024-10-18T00:00:00Z"
+    },
+    {
+      "id": 41,
+      "avatarUrl": "https://picsum.photos/id/1041/200/200",
+      "name": "Екатерина Кузнецов",
+      "location": "Екатеринбург",
+      "age": "32",
+      "gender": "Женский",
+      "skillCanTeach": {
+        "id": 41,
+        "name": "Физические тренировки",
+        "description": "Помогаю прокачать навык «Физические тренировки»",
+        "subcategoryId": 41
+      },
+      "images": [
+        "https://picsum.photos/id/1041/600/400",
+        "https://picsum.photos/id/1091/600/400"
+      ],
+      "subcategoriesWantToLearn": [
+        {
+          "id": 6,
+          "name": "Тайм-менеджмент",
+          "categoryId": 1
+        },
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
+      ],
+      "categoriesWantToLearn": [
+        {
+          "id": 1,
+          "name": "Бизнес и карьера"
+        },
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
+      ],
+      "likesCount": 119,
+      "likedByUserIds": [],
+      "createdAt": "2024-10-09T00:00:00Z"
     },
     {
       "id": 42,
-      "avatarUrl": "https://i.pravatar.cc/150?img=42",
-      "name": "Сергей Воронцов",
-      "description": "Стараюсь развиваться в разных направлениях и обучать других.",
-      "location": "Санкт-Петербург",
-      "age": "29",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1042/200/200",
+      "name": "Полина Смирнов",
+      "location": "Москва",
+      "age": "21",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Физические тренировки",
-        "description": "Помогаю освоить «Физические тренировки», даю советы по упражнениям и технике.",
-        "categoryId": 6,
-        "subcategoryId": 41
+        "id": 42,
+        "name": "Навыки обучения",
+        "description": "Помогаю прокачать навык «Навыки обучения»",
+        "subcategoryId": 26
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1042/600/400",
+        "https://picsum.photos/id/1092/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 18, "name": "Французский", "categoryId": 3 },
-        { "id": 12, "name": "Музыка и звук", "categoryId": 2 },
-        { "id": 28, "name": "Скорочтение", "categoryId": 4 }
+        {
+          "id": 33,
+          "name": "Приготовление еды",
+          "categoryId": 5
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 4, "name": "Образование и развитие" }
+        {
+          "id": 5,
+          "name": "Дом и уют"
+        }
       ],
-      "likesCount": 180,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 59,
+      "likedByUserIds": [
+        38
+      ],
+      "createdAt": "2025-01-07T00:00:00Z"
     },
     {
       "id": 43,
-      "avatarUrl": "https://i.pravatar.cc/150?img=43",
-      "name": "Алексей Киселёв",
-      "description": "Люблю развиваться, изучать новые навыки и делиться опытом.",
-      "location": "Нижний Новгород",
-      "age": "30",
+      "avatarUrl": "https://picsum.photos/id/1043/200/200",
+      "name": "Алексей Иванов",
+      "location": "Санкт-Петербург",
+      "age": "19",
       "gender": "Мужской",
       "skillCanTeach": {
-        "name": "Управление командой",
-        "description": "Помогаю освоить «Управление командой», обучаю навыкам лидерства и организации работы.",
-        "categoryId": 1,
-        "subcategoryId": 1
+        "id": 43,
+        "name": "Английский",
+        "description": "Помогаю прокачать навык «Английский»",
+        "subcategoryId": 17
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1043/600/400",
+        "https://picsum.photos/id/1093/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 10, "name": "Фотография", "categoryId": 2 },
-        { "id": 33, "name": "Приготовление еды", "categoryId": 5 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 5, "name": "Дом и уют" }
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 160,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 121,
+      "likedByUserIds": [
+        18,
+        47
+      ],
+      "createdAt": "2024-12-24T00:00:00Z"
     },
     {
       "id": 44,
-      "avatarUrl": "https://i.pravatar.cc/150?img=44",
-      "name": "Екатерина Жукова",
-      "description": "Интересуюсь творчеством и саморазвитием, люблю обучать других.",
-      "location": "Воронеж",
-      "age": "26",
+      "avatarUrl": "https://picsum.photos/id/1044/200/200",
+      "name": "Алина Орлов",
+      "location": "Санкт-Петербург",
+      "age": "45",
       "gender": "Женский",
       "skillCanTeach": {
-        "name": "Рисование и иллюстрация",
-        "description": "Помогаю освоить «Рисование и иллюстрацию», делюсь техниками и вдохновением.",
-        "categoryId": 2,
-        "subcategoryId": 9
+        "id": 44,
+        "name": "Питание и ЗОЖ",
+        "description": "Помогаю прокачать навык «Питание и ЗОЖ»",
+        "subcategoryId": 38
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1044/600/400",
+        "https://picsum.photos/id/1094/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 24, "name": "Образование и развитие", "categoryId": 4 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 170,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 85,
+      "likedByUserIds": [
+        7,
+        35,
+        46,
+        40,
+        17
+      ],
+      "createdAt": "2024-11-17T00:00:00Z"
     },
     {
       "id": 45,
-      "avatarUrl": "https://i.pravatar.cc/150?img=45",
-      "name": "Николай Фролов",
-      "description": "Люблю обучение и развитие, помогаю другим достигать целей.",
-      "location": "Красноярск",
-      "age": "28",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1045/200/200",
+      "name": "Алексей Соколова",
+      "location": "Пермь",
+      "age": "43",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Предпринимательство",
-        "description": "Помогаю освоить «Предпринимательство», делюсь практическим опытом запуска проектов.",
-        "categoryId": 1,
-        "subcategoryId": 8
+        "id": 45,
+        "name": "Управление командой",
+        "description": "Помогаю прокачать навык «Управление командой»",
+        "subcategoryId": 1
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1045/600/400",
+        "https://picsum.photos/id/1095/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 11, "name": "Видеомонтаж", "categoryId": 2 },
-        { "id": 27, "name": "Когнитивные техники", "categoryId": 4 },
-        { "id": 42, "name": "Сон и восстановление", "categoryId": 6 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        },
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 185,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 113,
+      "likedByUserIds": [
+        21,
+        47,
+        44,
+        33,
+        48
+      ],
+      "createdAt": "2025-01-11T00:00:00Z"
     },
     {
       "id": 46,
-      "avatarUrl": "https://i.pravatar.cc/150?img=46",
-      "name": "Олеся Дмитриева",
-      "description": "Стремлюсь к развитию и люблю делиться знаниями.",
-      "location": "Самара",
-      "age": "25",
-      "gender": "Женский",
+      "avatarUrl": "https://picsum.photos/id/1046/200/200",
+      "name": "Иван Волкова",
+      "location": "Екатеринбург",
+      "age": "32",
+      "gender": "Мужской",
       "skillCanTeach": {
+        "id": 46,
         "name": "Креативное письмо",
-        "description": "Помогаю освоить «Креативное письмо», обучаю написанию текстов и созданию идей.",
-        "categoryId": 2,
+        "description": "Помогаю прокачать навык «Креативное письмо»",
         "subcategoryId": 14
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1046/600/400",
+        "https://picsum.photos/id/1096/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 33, "name": "Приготовление еды", "categoryId": 5 },
-        { "id": 39, "name": "Ментальное здоровье", "categoryId": 6 }
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 5, "name": "Дом и уют" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 160,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 139,
+      "likedByUserIds": [],
+      "createdAt": "2024-11-28T00:00:00Z"
     },
     {
       "id": 47,
-      "avatarUrl": "https://i.pravatar.cc/150?img=47",
-      "name": "Вадим Орлов",
-      "description": "Люблю изучать новые навыки и делиться опытом с другими.",
-      "location": "Тюмень",
-      "age": "29",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1047/200/200",
+      "name": "Мария Смирнов",
+      "location": "Санкт-Петербург",
+      "age": "45",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Тайм-менеджмент",
-        "description": "Помогаю освоить «Тайм-менеджмент», делюсь стратегиями планирования и организации.",
-        "categoryId": 1,
-        "subcategoryId": 6
+        "id": 47,
+        "name": "Навыки преподавания",
+        "description": "Помогаю прокачать навык «Навыки преподавания»",
+        "subcategoryId": 29
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1047/600/400",
+        "https://picsum.photos/id/1097/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 19, "name": "Испанский", "categoryId": 3 },
-        { "id": 16, "name": "Декор и DIY", "categoryId": 2 },
-        { "id": 37, "name": "Йога и медитация", "categoryId": 6 }
+        {
+          "id": 14,
+          "name": "Креативное письмо",
+          "categoryId": 2
+        },
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 2,
+          "name": "Творчество и искусство"
+        },
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 172,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 125,
+      "likedByUserIds": [
+        20,
+        46,
+        33,
+        24,
+        50,
+        11
+      ],
+      "createdAt": "2024-12-16T00:00:00Z"
     },
     {
       "id": 48,
-      "avatarUrl": "https://i.pravatar.cc/150?img=48",
-      "name": "Алина Герасимова",
-      "description": "Интересуюсь искусством и саморазвитием, люблю обучать и вдохновлять других.",
-      "location": "Саратов",
-      "age": "26",
+      "avatarUrl": "https://picsum.photos/id/1048/200/200",
+      "name": "Ольга Кузнецов",
+      "location": "Пермь",
+      "age": "28",
       "gender": "Женский",
       "skillCanTeach": {
-        "name": "Арт-терапия",
-        "description": "Помогаю освоить «Арт-терапию», обучаю техникам самовыражения через искусство.",
-        "categoryId": 2,
-        "subcategoryId": 15
+        "id": 48,
+        "name": "Навыки обучения",
+        "description": "Помогаю прокачать навык «Навыки обучения»",
+        "subcategoryId": 26
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1048/600/400",
+        "https://picsum.photos/id/1098/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 28, "name": "Скорочтение", "categoryId": 4 },
-        { "id": 38, "name": "Питание и ЗОЖ", "categoryId": 6 }
+        {
+          "id": 41,
+          "name": "Физические тренировки",
+          "categoryId": 6
+        },
+        {
+          "id": 38,
+          "name": "Питание и ЗОЖ",
+          "categoryId": 6
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 4, "name": "Образование и развитие" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 6,
+          "name": "Здоровье и лайфстайл"
+        }
       ],
-      "likesCount": 165,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 96,
+      "likedByUserIds": [
+        37,
+        50,
+        36,
+        34,
+        41,
+        5
+      ],
+      "createdAt": "2024-11-11T00:00:00Z"
     },
     {
       "id": 49,
-      "avatarUrl": "https://i.pravatar.cc/150?img=49",
-      "name": "Игорь Никитин",
-      "description": "Стараюсь развиваться и делиться знаниями с другими.",
-      "location": "Владимир",
-      "age": "30",
-      "gender": "Мужской",
+      "avatarUrl": "https://picsum.photos/id/1049/200/200",
+      "name": "Екатерина Иванов",
+      "location": "Екатеринбург",
+      "age": "36",
+      "gender": "Не указан",
       "skillCanTeach": {
-        "name": "Когнитивные техники",
-        "description": "Помогаю освоить «Когнитивные техники», делюсь практическими упражнениями для мозга.",
-        "categoryId": 4,
-        "subcategoryId": 27
+        "id": 49,
+        "name": "Тайм-менеджмент",
+        "description": "Помогаю прокачать навык «Тайм-менеджмент»",
+        "subcategoryId": 6
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1049/600/400",
+        "https://picsum.photos/id/1099/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 17, "name": "Английский", "categoryId": 3 },
-        { "id": 16, "name": "Декор и DIY", "categoryId": 2 }
+        {
+          "id": 29,
+          "name": "Навыки преподавания",
+          "categoryId": 4
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 3, "name": "Иностранные языки" },
-        { "id": 2, "name": "Творчество и искусство" }
+        {
+          "id": 4,
+          "name": "Образование и развитие"
+        }
       ],
-      "likesCount": 170,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 62,
+      "likedByUserIds": [
+        19,
+        2,
+        47,
+        9,
+        31
+      ],
+      "createdAt": "2024-10-16T00:00:00Z"
     },
     {
       "id": 50,
-      "avatarUrl": "https://i.pravatar.cc/150?img=50",
-      "name": "Татьяна Ермакова",
-      "description": "Люблю развиваться и пробовать новые направления, обучать других.",
-      "location": "Калининград",
-      "age": "27",
+      "avatarUrl": "https://picsum.photos/id/1050/200/200",
+      "name": "Дарья Смирнов",
+      "location": "Москва",
+      "age": "35",
       "gender": "Женский",
       "skillCanTeach": {
-        "name": "Скорочтение",
-        "description": "Помогаю освоить «Скорочтение», обучаю техникам быстрого чтения и запоминания.",
-        "categoryId": 4,
-        "subcategoryId": 28
+        "id": 50,
+        "name": "Навыки обучения",
+        "description": "Помогаю прокачать навык «Навыки обучения»",
+        "subcategoryId": 26
       },
-      "images": ["https://images.unsplash.com/photo-1517841905240-472988babdf9"],
+      "images": [
+        "https://picsum.photos/id/1050/600/400",
+        "https://picsum.photos/id/1100/600/400"
+      ],
       "subcategoriesWantToLearn": [
-        { "id": 9, "name": "Рисование и иллюстрация", "categoryId": 2 },
-        { "id": 41, "name": "Физические тренировки", "categoryId": 6 }
+        {
+          "id": 17,
+          "name": "Английский",
+          "categoryId": 3
+        }
       ],
       "categoriesWantToLearn": [
-        { "id": 2, "name": "Творчество и искусство" },
-        { "id": 6, "name": "Здоровье и лайфстайл" }
+        {
+          "id": 3,
+          "name": "Иностранные языки"
+        }
       ],
-      "likesCount": 175,
-      "createdAt": "2024-11-01T00:00:00Z"
+      "likesCount": 74,
+      "likedByUserIds": [
+        23,
+        7,
+        32,
+        48,
+        25,
+        45
+      ],
+      "createdAt": "2024-12-04T00:00:00Z"
     }
   ]
 }
